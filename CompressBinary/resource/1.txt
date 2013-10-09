@@ -1,0 +1,1194 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>【二手车网-二手车买卖|二手车交易市场_权威_真实_安全】-淘车网，易车二手车</title>
+<meta name="keywords" content="二手车,二手车市场,二手车交易市场,二手汽车,二手车网" />
+<meta name="description" content="易车网二手车频道是中国最大二手车网站,专业二手汽车交易市场服务平台,提供近100万条真实二手车买卖信息,每日最新二手车报价,权威二手车交易信息,免费二手车估价服务" />
+    <link rel="icon" href="http://www.taoche.com/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://www.taoche.com/favicon.ico" type="image/x-icon" /> 
+    
+<link rel="stylesheet" type="text/css" href="http://image.bitautoimg.com/uimg/css/0015/taoche_index_style-20130913145433.css" media="all" /> 
+                      
+    <script language="javascript" src="/cooperjs2013/jquery.js?version=20121022" type="text/javascript"></script>
+
+     <script language="javascript" type="text/javascript" src="/cooperjs2013/index.js?version=2013080902"></script>
+ <script language="javascript" type="text/javascript" src="http://image.bitautoimg.com/carchannel/jsnew/dropdownlist.js?v=3.2"></script>
+
+    <script type="text/javascript" src="http://img3.ucar.cn/website/autojs/com/cartypeandcitynoframework.js?version=20130505"></script>
+   
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="http://image.bitautoimg.com/uimg/css/0014/taoche_yichehome_style-20130813155139.css" media="all" /> 
+                  
+<script src="/cooperjs2013/header.js?version=20130826" type="text/javascript"></script>
+
+<script type="text/JavaScript">
+    var InitBitAutoNavigation = function () {
+        String.prototype.EndsWith = function (str) {
+            return this.substr(this.length - str.length) == str;
+        }
+
+        var arr = { 'lihome': 'bitautotest.shtml', 'libuycar': 'bitauto.com/buycar', 'lisellcar': 'bitauto.com/sellcar', 'lieval': 'bitauto.com/pinggu', 'liperm': 'bitauto.com/huanxin', 'lirequire': 'bitauto.com/qiugou', 'liask': 'bitauto.com/ask' };
+        var link = window.location.href.toLowerCase();
+        if (link.EndsWith('bitauto.com/') & link.indexOf('news') < 0 & link.indexOf('review') < 0) {
+            return;
+        }
+        for (var i in arr) {
+            if (link.indexOf(arr[i]) > 0) {
+                if (i == "liask") {
+                    if (document.getElementById(i)) {
+                        document.getElementById(i).className = 'on last';
+                    }
+                }
+                else {
+                    if (document.getElementById(i)) {
+                        document.getElementById(i).className = 'on';
+                    }
+                }
+            }
+            else {
+                if (document.getElementById(i)) {
+                    document.getElementById(i).className = '';
+                }
+            }
+        }
+    }
+    function loginbox() {
+        var login_hover = document.getElementById("login_navhover");
+        var login_nav = document.getElementById("login_nav");
+
+        login_hover.onmouseover = function () {
+            this.className = "last bit_link bit_hover";
+            login_nav.style.display = "block";
+        }
+        login_hover.onmouseout = function () {
+            this.className = "last bit_link";
+            login_nav.style.display = "none";
+        }
+    }
+</script>
+<div class="bit_top">
+    <div class="bit950">
+        <ul>
+            <li><a target="_blank" href="http://www.bitauto.com/">易车网</a></li>
+            <li><a target="_blank" href="http://www.leche.com">乐车网</a></li>
+            <li><a target="_blank" href="http://www.taoche.com">淘车网</a></li>
+            <li><a target="_blank" href="http://app.yiche.com/">易动应用</a></li>
+            <li class="last"><a target="_blank" href="http://price.bitauto.com/">汽车报价</a></li>
+        </ul>
+        <!--公共_网站导航-->
+        <div class="bt_login_box">
+            <ul>
+                <li class="last bit_link" id="login_navhover"><strong><a href="http://www.bitauto.com/map/map.shtml"
+                    target="_blank">网站地图<em></em></a><sub></sub></strong>
+                    <dl class="login_linkbox" id="login_nav" style="display: none;">
+                        <dt class="noborder"><a target="_blank" href="http://car.bitauto.com/">汽车大全</a></dt>
+                        <dd>
+                            <a target="_blank" href="http://car.bitauto.com/">车型</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://www.bitauto.com/xinche/">新车</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://photo.bitauto.com/">图片</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://v.bitauto.com/">视频</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://car.bitauto.com/top_pingce/">评测</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://car.bitauto.com/tree_daogou/">导购</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://koubei.bitauto.com/tree/">口碑</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://price.bitauto.com/">报价</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://jiangjia.bitauto.com/">降价</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://index.bitauto.com/">指数</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://dealer.bitauto.com/">经销商</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://ask.bitauto.com/">问答</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://car.bitauto.com/tree_baoyang/">养护</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://yiche.taoche.com/">二手车</a></dd>
+                        <dt><a target="_blank" href="http://baa.bitauto.com/">汽车论坛</a></dt>
+                        <dd>
+                            <a target="_blank" href="http://baa.bitauto.com/foruminterrelated/brandforumlist.html">
+                                车型论坛</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://baa.bitauto.com/foruminterrelated/grouplist_2.html">
+                                主题论坛</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://zijia.bitauto.com/">自驾游</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://www.bitauto.com/zhuanti/8/bbspopularthemes/">论坛精选</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://baa.bitauto.com/special/huodong/">网友活动</a></dd>
+                        <dt>实用工具</dt>
+                        <dd>
+                            <a target="_blank" href="http://car.bitauto.com/chexingduibi/">车型对比</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://car.bitauto.com/tupianduibi/">图片对比</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://i.bitauto.com/apps/!jz/">用车记帐</a></dd>
+                        <dd>
+                            <a target="_blank" href="http://car.bitauto.com/gouchejisuanqi/">购车计算器</a></dd>
+                        <dt class="dtmore"><a target="_blank" href="http://www.bitauto.com/map/map.shtml">更多&gt;&gt;</a></dt>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div id="divLoginDivID" class="bt_login_box">
+        </div>
+    </div>
+</div>
+<script src="http://js.inc.baa.bitautotech.com/c/c.js?s=Bitauto.Login.Version2" type="text/javascript"
+    charset="utf-8"></script>
+<script type="text/javascript">
+    Bitauto.Login.init("divLoginDivID");
+    loginbox();
+</script>
+<div style="width: 960px; margin: 0 auto">
+    <!-- 顶通广告 -->
+    <div class="con_ad2" id="divHeadPic">
+        <ins id="div_045a2640-a962-4877-9d47-d596feb3f407" type="ad_play" adplay_ip="" adplay_areaname=""
+            adplay_cityname="" adplay_brandid="" adplay_brandname="" adplay_brandtype=""
+            adplay_blockcode="045a2640-a962-4877-9d47-d596feb3f407"></ins>
+    </div>
+    <!--易车搜索 star-->
+    <div class="bt_smenuNew">
+    <div class="ychz_ad">
+			<em><a href="http://ad.doubleclick.net/clk;274332509;100815624;x?http://market.bitauto.com/sqtyjr/" target="_blank">低月供买二手车，升级您的座驾</a></em>
+	</div>
+        <div class="bt_navigateNew">
+            <a class="bt_logo" target="_blank" href="http://www.bitauto.com/">易车网</a>
+            <div class="addressbox">
+                <div class="geucarclose clearfix" onmouseover="this.className='geucar clearfix';"
+                    onmouseout="this.className='geucarclose clearfix';">
+                    <address id="areaText">
+                        全国站</address>
+                    <iframe style="width: 460px; left: 1px; *left: 10px; height: 258px; height: 256px\0;
+                        height: 250px\9; *height: 250px; _height: 246px; position: absolute; top: 60px;
+                        border: 0; z-index: 6;" id="ifHeader"></iframe>
+                    <div class="addfucbox clearfix">
+                        <div class="addmain">
+                            <div class="addmaina">
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(0);">全国</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2);">
+                                    北京</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(24);">上海</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(501);">
+                                        广州</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(502);">深圳</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2501);">成都</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1701);">
+                                    沈阳</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(3002);">宁波</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(26);">天津</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(902);">
+                                    唐山</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2101);">济南</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2102);">青岛</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2301);">
+                                    西安</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2117);">临沂</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2201);">太原</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1708);">
+                                    大连</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(3001);">杭州</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1502);">苏州</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1501);">
+                                    南京</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1503);">无锡</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1518);">徐州</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(101);">
+                                    合肥</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(504);">东莞</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(518);">佛山</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1201);">
+                                    武汉</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2901);">昆明</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1301);">长沙</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1001);">
+                                    郑州</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(301);">福州</a>
+                                <a href="javascript:IpLocation.SetAreaAndRedirectIndex(31);">重庆</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(901);">
+                                    石家庄</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(25);">四川</a>
+                            </div>
+                            <ul class="w248">
+                                <li>A <a href="javascript:IpLocation.SetAreaAndRedirectIndex(1);">安徽</a></li>
+                                <li>B <a href="javascript:IpLocation.SetAreaAndRedirectIndex(2);">北京</a></li>
+                                <li>C <a href="javascript:IpLocation.SetAreaAndRedirectIndex(31);">重庆</a></li>
+                                <li>F <a href="javascript:IpLocation.SetAreaAndRedirectIndex(3);">福建</a></li>
+                                <li>G <a href="javascript:IpLocation.SetAreaAndRedirectIndex(5);">广东</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(6);">
+                                    广西</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(4);">甘肃</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(7);">
+                                        贵州</a></li>
+                                <li>H <a href="javascript:IpLocation.SetAreaAndRedirectIndex(11);">黑龙江</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(12);">
+                                    湖北</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(13);">湖南</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(9);">
+                                        河北</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(10);">河南</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(8);">
+                                            海南</a></li>
+                                <li>J <a href="javascript:IpLocation.SetAreaAndRedirectIndex(14);">吉林</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(15);">
+                                    江苏</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(16);">江西</a></li>
+                                <li>L <a href="javascript:IpLocation.SetAreaAndRedirectIndex(17);">辽宁</a></li>
+                            </ul>
+                            <ul>
+                                <li>N <a href="javascript:IpLocation.SetAreaAndRedirectIndex(18);">内蒙古</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(19);">
+                                    宁夏</a></li>
+                                <li>Q <a href="javascript:IpLocation.SetAreaAndRedirectIndex(20);">青海</a></li>
+                                <li>S <a href="javascript:IpLocation.SetAreaAndRedirectIndex(24);">上海</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(21);">
+                                    山东</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(22);">山西</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(25);">
+                                        四川</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(23);">陕西</a></li>
+                                <li>T <a href="javascript:IpLocation.SetAreaAndRedirectIndex(26);">天津</a></li>
+                                <li>X <a href="javascript:IpLocation.SetAreaAndRedirectIndex(28);">新疆</a> <a href="javascript:IpLocation.SetAreaAndRedirectIndex(27);">
+                                    西藏</a></li>
+                                <li>Y <a href="javascript:IpLocation.SetAreaAndRedirectIndex(29);">云南</a></li>
+                                <li>Z <a href="javascript:IpLocation.SetAreaAndRedirectIndex(30);">浙江</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bt_searchNew">
+            <!--搜索-->
+            <!--<form action="http://www.cheyisou.com/post.aspx" method="get" target="_blank" name="sug_form"
+        id="sug_form">
+        <div class="bor">
+            <input type="text" autocomplete="off" value="" name="so_keywords" class="select_t"
+                id="sug_txt_keyword">
+            <span class="bor_b">
+                <input type="submit" class="select_b" value="搜索" id="sug_submit">
+            </span>
+            <div style="display: none;" id="sug" onselectstart="return false">
+            </div>
+            <input type="hidden" value="ershouche" name="sug_datatype" id="sug_datatype">
+            <input type="hidden" value="ershouche" name="sug_datatype2" id="sug_datatype2">
+            <input type="hidden" value="utf-8" name="sug_encoding" id="sug_encoding">
+        </div>
+        </form>
+        <script type="text/javascript">
+            var sug_open_type = "open";
+            var sug_txt_css = "select_t";
+            var sug_flagID = "11";
+            var so = document.createElement('script');
+            so.src = 'http://image.bitautoimg.com/bsearch/jsforsug2012/sug_default_form.js';
+            document.getElementsByTagName('head')[0].appendChild(so);
+            var ti = setInterval(function () { if (!window.bitauto) { return } else { window.bitauto.init(); clearInterval(ti) } }, 200)
+            window.onunload = function () { }; 
+        </script>-->
+            <div class="bor" id="divSearchCarSource">
+                <!-- 搜索浮层star-->
+                <form id="searchform" onsubmit="return HeaderSearch.searchCarSource();" method="get"
+                name="searchform" autocomplete="off">
+                <fieldset>
+                    <div onkeydown="ShowObject.MoveThis();" id="SearchDropDownListId" class="SearchDropDownList top22"
+                        onmouseout="ShowObject.MoveOut();">
+                    </div>
+                    <input id="txtSearch" class="select_t" maxlength="90" type="text" />
+                    <input class="select_b" onclick="return HeaderSearch.searchCarSource();" value="搜索"
+                        type="button" />
+                </fieldset>
+                </form>
+                <!-- 搜索浮层end-->
+            </div>
+            <script type="text/javascript">
+                HeaderSearch.initial();
+                _Ucar_Suggest.AppendHTML();
+
+            </script>
+        </div>
+    </div>
+    <!-- 易车搜索 end -->
+    <script type="text/javascript">
+        InitBitAutoNavigation()
+    </script>
+    <!-- 易车导航 star-->
+    <div class="publicTabNew">
+        <ul class="tab" id="ulForTempClickStat">
+            <li><a id="treeNav_chexing" href="http://car.bitauto.com/">车型</a></li>
+            <li><a id="treeNav_tupian" href="http://photo.bitauto.com/">图片</a></li>
+            <li><a id="treeNav_shipin" href="http://v.bitauto.com/">视频</a></li>
+            <li><a id="treeNav_pingce" href="http://car.bitauto.com/tree_pingce/">评测</a></li>
+            <li class="treeNav_daogou"><a id="treeNav_daogou" href="http://car.bitauto.com/tree_daogou/">
+                导购</a></li>
+            <li><a id="treeNav_baojia" href="http://price.bitauto.com/">报价</a></li>
+            <li><a id="treeNav_hangqing" href="http://jiangjia.bitauto.com/">降价</a></li>
+            <li class="on3"><a id="treeNav_jingxiaoshang" href="http://dealer.bitauto.com/">经销商</a></li>
+            <li><a id="treeNav_wenda" target="_blank" href="http://ask.bitauto.com/">问答</a></li>
+            <li><a id="treeNav_koubei" href="http://koubei.bitauto.com/">口碑</a></li>
+            <li><a id="treeNav_yanghu" href="http://car.bitauto.com/tree_baoyang/">养护</a></li>
+            <li class="on on3"><a id="treeNav_ershouche" href="http://yiche.taoche.com/">二手车</a></li>
+            <li><a id="treeNav_baa" href="http://baa.bitauto.com/">论坛</a></li>
+            <li class="on3 last1"><a id="A1" href="http://zijia.bitauto.com/">自驾游</a></li>
+        </ul>
+    </div>
+    <div class="publicTabNew2">
+        <ul class="tab_2nd" id="navMenu">
+            <li><a href="/">二手车首页</a></li>
+            <li id="bitauto_nav_buycar"><a href="/buycar/">买二手车</a></li>
+            <li><a href="/sellcar/">卖二手车</a></li>
+            <li id="lipinggu"><a href="/pinggu/">二手车评估</a></li>
+            <li><a href="/dealer/">二手车商家</a></li>
+            <li><a href="/qiugou/">二手车求购</a></li>
+            <li><a href="/zhihuan/">置换</a></li>
+            <li class="last"><a href="/ask/">问答</a></li>
+        </ul>
+        <script type="text/javascript">
+            var initmemu = function () {
+                var domainUrl = ["buycar", "sellcar", "pinggu", "dealer", "qiugou", "zhihuan", "ask"];
+                var obj = document.getElementById("navMenu").getElementsByTagName("li");
+                var myUrl = window.location.href.toLowerCase();
+                if (myUrl.indexOf("/mycar/") > 0) {
+                    return;
+                }
+                if (myUrl.indexOf("/jiaohuan/") > 0) {
+                    document.getElementById("bitauto_nav_buycar").className = "current";
+                    return;
+                }
+                for (i = 0; i < obj.length; i++) {
+                    if (myUrl.indexOf(domainUrl[i]) != -1) {
+                        if (obj[i + 1].className == "last") {
+                            obj[i + 1].className = "current last";
+                        } else {
+                            obj[i + 1].className = "current";
+                        }
+                        return;
+                    }
+                }
+                obj[0].className = "current";
+            };
+            initmemu();
+        </script>
+    </div>
+    <!-- 易车导航end -->
+</div>
+<!-- 各地二手车 star-->
+<div class="hotCity clearAll">
+    <div class="cityList">
+        <strong>各地二手车：</strong><a class="nobg" href="http://beijing.taoche.com/" target="_blank">北京</a><a
+            href="http://shanghai.taoche.com/" target="_blank">上海</a><a href="http://guangzhou.taoche.com/"
+                target="_blank">广州</a><a href="http://shenzhen.taoche.com/" target="_blank">深圳</a><a
+                    href="http://tianjin.taoche.com/" target="_blank">天津</a><a href="http://chongqing.taoche.com/"
+                        target="_blank">重庆</a><a href="http://chengdu.taoche.com/" target="_blank">成都</a><a
+                            href="http://wuhan.taoche.com/" target="_blank">武汉</a><a href="http://shenyang.taoche.com/"
+                                target="_blank">沈阳</a><a href="http://jinan.taoche.com/" target="_blank">济南</a><a
+                                    href="http://qingdao.taoche.com/" target="_blank">青岛</a><a href="http://suzhou.taoche.com/"
+                                        target="_blank">苏州</a><a href="http://xian.taoche.com/" target="_blank">西安</a><a
+                                            href="http://nanjing.taoche.com/" target="_blank">南京</a><a href="http://zhengzhou.taoche.com/"
+                                                target="_blank">郑州</a><a href="http://shijiazhuang.taoche.com/" target="_blank">石家庄</a><a
+                                                    href="http://hangzhou.taoche.com/" target="_blank">杭州</a><a href="http://wenzhou.taoche.com/"
+                                                        target="_blank">温州</a><a href="http://ningbo.taoche.com/" target="_blank">宁波</a><a
+                                                            href="http://kunming.taoche.com/" target="_blank">昆明</a></div>
+    <div id="cityMore" class="cityMore">
+        <a href="javascript:void(0);">更多地区二手车&gt;&gt;</a></div>
+    <!--浮层-各地二手车开始-->
+    <div id="floatCity" class="head_moreCity2" style="display: none;">
+        <div class="moreCityTitle">
+            全国各地二手车</div>
+        <iframe frameborder="0" style="width: 322px; height: 185px; filter: alpha(opacity=0);
+            -moz-opacity: 0; position: absolute; top: 0px; left: 0px; z-index: 10;" id="layer_iframe"
+            name="layer_iframe"></iframe>
+        <div class="moreCityBody">
+            <ul class="moreCityList clearAll">
+                <li><a href="http://beijing.taoche.com/" target="_blank">北京</a></li>
+                <li><a href="http://chongqing.taoche.com/" target="_blank">重庆</a></li>
+                <li><a href="http://shenzhen.taoche.com/" target="_blank">深圳</a></li>
+                <li><a href="http://shenyang.taoche.com/" target="_blank">沈阳</a></li>
+                <li><a href="http://qingdao.taoche.com/" target="_blank">青岛</a></li>
+                <li><a href="http://chengdu.taoche.com/" target="_blank">成都</a></li>
+                <li><a href="http://shanghai.taoche.com/" target="_blank">上海</a></li>
+                <li><a href="http://dalian.taoche.com/" target="_blank">大连</a></li>
+                <li><a href="http://jinan.taoche.com/" target="_blank">济南</a></li>
+                <li><a href="http://tianjin.taoche.com/" target="_blank">天津</a></li>
+                <li><a href="http://suzhou.taoche.com/" target="_blank">苏州</a></li>
+                <li><a href="http://xian.taoche.com/" target="_blank">西安</a></li>
+                <li><a href="http://nanjing.taoche.com/" target="_blank">南京</a></li>
+                <li><a href="http://zhengzhou.taoche.com/" target="_blank">郑州</a></li>
+                <li><a href="http://shijiazhuang.taoche.com/" target="_blank">石家庄</a></li>
+                <li><a href="http://hangzhou.taoche.com/" target="_blank">杭州</a></li>
+                <li><a href="http://daqing.taoche.com/" target="_blank">大庆</a></li>
+                <li><a href="http://haerbin.taoche.com/" target="_blank">哈尔滨</a></li>
+                <li><a href="http://wenzhou.taoche.com/" target="_blank">温州</a></li>
+                <li><a href="http://ningbo.taoche.com/" target="_blank">宁波</a></li>
+                <li><a href="http://wuhan.taoche.com/" target="_blank">武汉</a></li>
+                <li><a href="http://tangshan.taoche.com/" target="_blank">唐山</a></li>
+                <li><a href="http://xiamen.taoche.com/" target="_blank">厦门</a></li>
+                <li><a href="http://guangzhou.taoche.com/" target="_blank">广州</a></li>
+                <li><a href="http://yantai.taoche.com/" target="_blank">烟台</a></li>
+                <li><a href="http://linyi.taoche.com/" target="_blank">临沂</a></li>
+                <li><a href="http://changchun.taoche.com/" target="_blank">长春</a></li>
+                <li><a href="http://nanning.taoche.com/" target="_blank">南宁</a></li>
+                <li><a href="http://changsha.taoche.com/" target="_blank">长沙</a></li>
+                <li><a href="http://hefei.taoche.com/" target="_blank">合肥</a></li>
+                <li><a href="http://xuzhou.taoche.com/" target="_blank">徐州</a></li>
+                <li><a href="http://kunming.taoche.com/" target="_blank">昆明</a></li>
+                <li><a href="http://jining.taoche.com/" target="_blank">济宁</a></li>
+                <li><a href="http://baoding.taoche.com/" target="_blank">保定</a></li>
+                <li><a href="http://wuxi.taoche.com/" target="_blank">无锡</a></li>
+                <li><a href="http://tz.taoche.com/" target="_blank">台州</a></li>
+                <li><a href="http://weihai.taoche.com/" target="_blank">威海</a></li>
+                <li><a href="http://guiyang.taoche.com/" target="_blank">贵阳</a></li>
+                <li><a href="http://nantong.taoche.com/" target="_blank">南通</a></li>
+                <li><a href="http://luoyang.taoche.com/" target="_blank">洛阳</a></li>
+                <li><a href="http://handan.taoche.com/" target="_blank">邯郸</a></li>
+                <li><a href="http://foshan.taoche.com/" target="_blank">佛山</a></li>
+                <li><a href="http://nanchang.taoche.com/" target="_blank">南昌</a></li>
+                <li><a href="http://dongying.taoche.com/" target="_blank">东营</a></li>
+                <li><a href="http://fuzhou.taoche.com/" target="_blank">福州</a></li>
+                <li><a href="http://taiyuan.taoche.com/" target="_blank">太原</a></li>
+                <li><a target="_blank" href="http://www.taoche.com/city/">更多&gt;&gt;</a></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var div1 = document.getElementById("cityMore");
+        var div2 = document.getElementById("floatCity");
+        div1.onmouseover = function (e) {
+            div2.style.display = "block";
+        }
+        div2.onmouseout = function (e) {
+            e = e || window.event;
+            o = e.relatedTarget || e.toElement;
+            while (o.parentNode && o.id != "floatCity") {
+                o = o.parentNode;
+            }
+            if (o.id != "floatCity") {
+                div2.style.display = "none";
+            }
+        }
+    </script>
+    <!--浮层-各地二手车浮层结束-->
+</div>
+<script type="text/javascript">
+    IpLocation.SetIpLocationArea(); //设置ip地址
+    var BitautoCityForAd = IpLocation.GetAreaName(IpLocation.GetAreaId());
+    var AreaName = IpLocation.GetAreaName(IpLocation.GetAreaId());
+    document.getElementById("areaText").innerHTML = AreaName == "全国" ? AreaName : AreaName + "站";
+</script>
+<!-- 各地二手车 end-->
+<script src="http://www.bitauto.com/themes/2009/js/headcommon.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.bitauto.com/themes/2009/js/search.js"></script>
+<!--header end-->
+<!-- 头部 end -->
+
+<!--选车条件 star -->
+<div class="w960 clearfix">
+  <div class="xuancarbox xuanchemain h233 clearfix">
+     <div class="xuancar">
+        <span><a href="/buycar/carlist.aspx" target="_blank" class="colora" id="aMoreCarListTop">更多选车条件</a> | <a href="/buycar/ucarbrand.shtml " target="_blank" class="colora">车型大全</a></span>
+        车&nbsp;&nbsp;型：&nbsp;&nbsp;<select id="ddlIndexSearchMasterBrand" class="selectall sedt_145">
+                   </select>
+                   <select id="ddlIndexSearchSerial" class="selectall sedt_145">
+                   </select>
+                   <input name="" type="button" class="quedbuta" onclick="IndexFunction.searchBrandOrSerial()" />
+    </div>
+
+    <script type="text/javascript">
+        var IndexSearchCarSelector = new Ucar_CarBasic_Select("ddlIndexSearchMasterBrand", "ddlIndexSearchSerial");
+        IndexSearchCarSelector.isUseDisable = true;
+        IndexSearchCarSelector.initBrandSelect();
+    </script>
+    
+    <dl class="first clearfix">
+       <dt>价&nbsp;&nbsp;格：</dt>
+       <dd id="ddPriceRangeLink"><a href="http://www.taoche.com/buycar/price/0-3/" target="_blank">3万以下</a> <a href="http://www.taoche.com/buycar/price/3-5/" target="_blank">3-5万</a> <a href="http://www.taoche.com/buycar/price/5-8/" target="_blank">5-8万</a> <a href="http://www.taoche.com/buycar/price/8-12/" target="_blank">8-12万</a> <a href="http://www.taoche.com/buycar/price/12-18/" target="_blank">12-18万</a> <a href="http://www.taoche.com/buycar/price/18-24/" target="_blank">18-24万</a> <a href="http://www.taoche.com/buycar/price/24-35/" target="_blank">24-35万</a> <a href="http://www.taoche.com/buycar/price/35-60/" target="_blank">35-60万</a> <a href="http://www.taoche.com/buycar/price/60-100/" target="_blank">60-100万</a> <a href="http://www.taoche.com/buycar/price/100-9999/" target="_blank">100万以上</a> </dd>
+    </dl>
+    <dl class="clearfix">
+       <dt>级&nbsp;&nbsp;别：</dt>
+       <dd id="ddCategoryLink"><a href="http://www.taoche.com/buycar/cc/2/" target="_blank">微型</a> <a href="http://www.taoche.com/buycar/cc/4/" target="_blank">小型</a> <a href="http://www.taoche.com/buycar/cc/7/" target="_blank">紧凑型</a> <a href="http://www.taoche.com/buycar/cc/6/" target="_blank">中型</a> <a href="http://www.taoche.com/buycar/cc/3/" target="_blank">中大型</a> <a href="http://www.taoche.com/buycar/cc/1/" target="_blank">豪华</a> <a href="http://www.taoche.com/buycar/cc/5/" target="_blank">MPV</a> <a href="http://www.taoche.com/buycar/cc/8/" target="_blank">SUV</a> <a href="http://www.taoche.com/buycar/cc/9/" target="_blank">跑车</a> <a href="http://www.taoche.com/buycar/cc/12/" target="_blank">皮卡</a> <a href="http://www.taoche.com/buycar/cc/11/" target="_blank">面包车</a> </dd>
+    </dl>
+    <dl class="clearfix">
+       <dt>车&nbsp;&nbsp;龄：</dt>
+       <dd id="ddCarAgeLink"><a href="http://www.taoche.com/buycar/quanguo/pgesbxcdza1/" target="_blank">1年以内</a> <a href="http://www.taoche.com/buycar/quanguo/pgesbxcdza2/" target="_blank">2年以内</a> <a href="http://www.taoche.com/buycar/quanguo/pgesbxcdza3/" target="_blank">3年以内</a> <a href="http://www.taoche.com/buycar/quanguo/pgesbxcdza4/" target="_blank">3-5年</a> <a href="http://www.taoche.com/buycar/quanguo/pgesbxcdza5/" target="_blank">5-8年</a> <a href="http://www.taoche.com/buycar/quanguo/pgesbxcdza6/" target="_blank">8年以上</a> </dd>
+    </dl>
+    <dl class="clearfix">
+       <dt>国&nbsp;&nbsp;别：</dt>
+       <dd id="ddCountryLink"><a href="http://www.taoche.com/buycar/ct/1/" target="_blank">中国</a> <a href="http://www.taoche.com/buycar/ct/2/" target="_blank">德国</a> <a href="http://www.taoche.com/buycar/ct/12/" target="_blank">日本</a> <a href="http://www.taoche.com/buycar/ct/10/" target="_blank">美国</a> <a href="http://www.taoche.com/buycar/ct/13/" target="_blank">韩国</a> <a href="http://www.taoche.com/buycar/ct/6/" target="_blank">法国</a> <a href="http://www.taoche.com/buycar/ct/8/" target="_blank">英国</a> <a href="http://www.taoche.com/buycar/ct/7/" target="_blank">意大利</a> <a href="http://www.taoche.com/buycar/ct/11/" target="_blank">瑞典</a> </dd>
+    </dl>
+  </div>
+
+  <div class="fabumaichebox">
+     <div id="divCheyimai" class="fabubutbox" style="display:none">
+       <span class="butbox1 fleft"><input name="" type="button" class="butbg1  but_w122" value="发布卖车信息" onclick="window.open('/sellcar/sellinfo.aspx')" /></span>
+       <span class="butbox2 fright"><input name="" type="button" class="butbg2  but_w89" value="到店卖车" onclick="window.open('http://www.cheyimai.com/')" /></span>
+     </div>
+     <div id="divSellcar" class="fabubutbox">
+        <span class="butbox1 fleft"><input name="" type="button" class="butbg1  but_w218" value="发布卖车信息" onclick="window.open('/sellcar/sellinfo.aspx')" /></span>
+     </div>
+    <div class="guohunzhinan"><a href="/mycar/" target="_blank" class="colora">管理我发布的车</a> |   <a href="/zhishi/c-jiaoyiguifan.html" target="_blank" class="colora">交易规范</a></div>
+    <!--首页首屏矩形广告-->
+    <ins id="div_5313b705-6129-456e-b8d1-b6323c67975b" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="5313b705-6129-456e-b8d1-b6323c67975b"> </ins>
+  </div>
+</div>
+
+<script type="text/javascript">
+    var block_PriceLink = new UcarBlockText("ddPriceRangeLink", "", "PriceRangeLink.shtml", true);
+    block_PriceLink.BlockModel = "inc/ucar2012/index/bitauto/a{1}/";
+    block_PriceLink.InitBlock();
+
+    var block_CategoryLink = new UcarBlockText("ddCategoryLink", "", "CategoryLink.shtml", true);
+    block_CategoryLink.BlockModel = "inc/ucar2012/index/bitauto/a{1}/";
+    block_CategoryLink.InitBlock();
+
+    var block_CarAgeLink = new UcarBlockText("ddCarAgeLink", "", "CarAgeLink.shtml", true);
+    block_CarAgeLink.BlockModel = "inc/ucar2012/index/bitauto/a{1}/";
+    block_CarAgeLink.InitBlock();
+
+    var block_CountryLink = new UcarBlockText("ddCountryLink", "", "CountryLink.shtml", true);
+    block_CountryLink.BlockModel = "inc/ucar2012/index/bitauto/a{1}/";
+    block_CountryLink.InitBlock();
+
+    IndexFunction.showSellcarButton();
+  </script>
+
+<!--选车条件 end -->
+
+<!--我感兴趣的车 star -->
+<div class="w960 clearfix">
+   <div class="col_728 boxall h264 clearfix">
+       <div class="titall"><h2 class="title"><span>我感兴趣的车</span></h2></div>
+       <div class="more"><a href="http://www.taoche.com/i/mystorecar.aspx" target="_blank">我收藏的二手车</a></div>
+       
+   <ul class="wgxqcar pic210_140  box15_8 text_pica" id="ulFitYourCarSource">
+       <li><a href="http://www.taoche.com/buycar/b-DealerSHTY1000211S.html" target="_blank" onclick="MyInterestedCar.addIndexClickCookie(2955554,1886,2.10);"><img src="http://img5.ucar.cn/1d/02130cheay.jpg" alt="2011款 夏利A+ 11款 1.0L 手动 两厢图片" onerror="this.src='http://img4.taoche.com/1d/0212021ncv.gif'" /></a><P><span>2.10万</span><a href="http://www.taoche.com/buycar/b-DealerSHTY1000211S.html" target="_blank" title="2011款 夏利A+ 11款 1.0L 手动 两厢" onclick="MyInterestedCar.addIndexClickCookie(2955554,1886,2.10);">2011款 夏利A+</a></P><p>2010年上牌 1.50万公里</p></li><li><a href="http://www.taoche.com/buycar/b-DealerSHTY1000227S.html" target="_blank" onclick="MyInterestedCar.addIndexClickCookie(2960211,3318,4.68);"><img src="http://img5.ucar.cn/1d/02130chwus.jpg" alt="2011款 比亚迪G3R 11款 1.5L 手动 尚雅型图片" onerror="this.src='http://img4.taoche.com/1d/0212021ncv.gif'" /></a><P><span>4.68万</span><a href="http://www.taoche.com/buycar/b-DealerSHTY1000227S.html" target="_blank" title="2011款 比亚迪G3R 11款 1.5L 手动 尚雅型" onclick="MyInterestedCar.addIndexClickCookie(2960211,3318,4.68);">2011款 比亚迪G3R</a></P><p>2012年上牌 2.68万公里</p></li><li><a href="http://www.taoche.com/buycar/b-DealerSA33012367696C.html" target="_blank" onclick="MyInterestedCar.addIndexClickCookie(2963569,2573,28.98);"><img src="http://img5.ucar.cn/1d/02130ckfi0.jpg" alt="2011款 奥迪A6L 11款 2.0 TFSI 舒适型(自动)图片" onerror="this.src='http://img4.taoche.com/1d/0212021ncv.gif'" /></a><P><span>28.98万</span><a href="http://www.taoche.com/buycar/b-DealerSA33012367696C.html" target="_blank" title="2011款 奥迪A6L 11款 2.0 TFSI 舒适型(自动)" onclick="MyInterestedCar.addIndexClickCookie(2963569,2573,28.98);">2011款 奥迪A6L</a></P><p>2011年上牌 9.00万公里</p></li>   
+   </ul>
+    
+</div>
+  
+  
+   <div class="w218 boxall fright h264 clearfix">
+       <h3 class="titlea">快速二手车评估</h3>
+       
+       <ul class="pgcent clearfix" >
+           <li> <strong>车&nbsp;&nbsp;&nbsp;&nbsp;款：</strong>
+            <select id="ddlIndexEvaluateMasterBrand" class="selectall select1">
+            </select>
+            <p>                  
+            <select id="ddlIndexEvaluateSerial" class="selectall select1">
+            </select>
+            </p>
+            <p>
+            <select id="ddlIndexEvaluateCar" class="selectall select1">
+            </select> 
+            </p>             
+           </li>
+           <li><strong>首次上牌：</strong> 
+               <select id="ddlIndexEvaluateYear" class="selectall select2">
+               </select> 
+               <select id="ddlIndexEvaluateMonth" class="selectall select2">
+               </select>
+               <input type="hidden" id="hidIndexEvauateBuyCarDate" />  
+          </li>
+           <li><strong>行驶里程：</strong>
+               <input type="text" id="txtIndexEvauateMileage" maxlength="7" class="inputall input3"/>  公里 
+          </li>
+          <li><strong>估价目的：</strong>
+               <select id="ddlGoal" class="selectall select1">
+             <option value="0">请选择</option>
+            <option value="1">随便看看</option>
+            <option value="2">卖车</option>
+            <option value="3">买车</option>
+            <option value="4">置换新车</option>
+           </select>
+          </li>
+         <li>
+            <span class="select_x">
+                <input id="btnIndexEvaluateSubmit" type="button" value="在线估价"/>
+            </span>
+         </li>
+       </ul>
+       <script type="text/javascript">
+           IndexFunction.initIndexEvaluateEvent();
+        </script>      
+   </div>
+</div>
+<!--我感兴趣的车 end -->
+
+<!--中部第一通栏-->
+<div class="w960 mb10 clearfix">
+    <div class="col_left clearfix">
+         <ins id="div_d47a109c-bf0a-4bcf-b291-c316bddd9586" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="d47a109c-bf0a-4bcf-b291-c316bddd9586"> </ins>
+    </div>
+    <div class="col_right clearfix">
+        <ins id="div_62787299-6581-4ff0-9546-9f30208beb51" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="62787299-6581-4ff0-9546-9f30208beb51"> </ins>
+    </div>
+</div>
+
+<!--有质量保证的二手车 star -->
+<div class="w960 clearfix">
+   <div class="col_728 boxall h294 clearfix" id="divArea">
+       <div class="titall"><h2 class="title"><span>有质量保证的二手车</span></h2></div>
+<div class="more"><a href="http://bitauto.taoche.com/zhishi/z-renzhengershouche.html" target="_blank">什么是厂商认证</a></div>
+<div class="zhibaobox">
+<ul id="data_tab1" class="warrantyCarLogo pl12">
+<li id="one0" class="current"><img alt="奥迪品荐二手车" src="http://img8.ucar.cn/static/taochesite/logo/aodi_logo_63x38.jpg" /><div></div></li>
+<li id="one1"><img alt="BMW尊选二手车" src="http://img7.ucar.cn/static/taochesite/logo/bmwlogo_63x38.jpg" /><div></div></li>
+<li id="one2"><img alt="雷克萨斯二手车" src="http://img6.ucar.cn/static/taochesite/logo/lexus_logo_63x38.jpg" /><div></div></li>
+<li id="one3"><img alt="一汽丰田安心二手车" src="http://img5.ucar.cn/static/taochesite/logo/yiqifengtian_logo_63x38.jpg" /><div></div></li>
+<li id="one4"><img alt="广汽丰田心悦二手车" src="http://img5.ucar.cn/static/taochesite/logo/fengtianlogo_63x38.jpg" /><div></div></li>
+<li id="one5"><img alt="路虎二手车" src="http://img8.ucar.cn/static/taochesite/logo/luhu_logo_63x38.jpg" /><div></div></li>
+<li id="one6"><img alt="一汽大众二手车" src="http://img6.ucar.cn/static/taochesite/logo/yiqicsvwlogo_63x38.jpg" /><div></div></li>
+<li id="one7"><img alt="东风日产二手车" src="http://img7.ucar.cn/static/taochesite/logo/dongfengrichanlogo_63x38.jpg" /><div></div></li>
+</ul>
+</div>
+<div class="clear"></div>
+<div class="warrantyCarMain" id="data_box1_0" style="display: block;">
+<div class="warrantyCarMainR"><a href="http://ad.doubleclick.net/clk;274900591;101520083;s?http://as.kejet.net/QTg2MUU5MDVDREZGOTc4RkM0QUMyREM4NTg1QkRE?u/MDE3MDU1NjUyQUU3MkIy/o/QTg2MUU5MDVDREZGOTc4/m/RkM0QUMyREM4NTg1QkRE/q/afaclick?http://huodong.ucar.cn/audi2013/index.aspx" target="_blank" rel="nofollow"><img src="http://img6.ucar.cn/static/taochesite/logo/aodi_logo_150x100.jpg" alt="奥迪品荐"/></a>
+    <p>奥迪品荐秉承专业、诚信、便捷的品牌理念，为用户提供放心、愉悦、尊崇的服务</p>
+    <p class="changszq"><a href="http://ad.doubleclick.net/clk;274900591;101520083;s?http://as.kejet.net/QTg2MUU5MDVDREZGOTc4RkM0QUMyREM4NTg1QkRE?u/MDE3MDU1NjUyQUU3MkIy/o/QTg2MUU5MDVDREZGOTc4/m/RkM0QUMyREM4NTg1QkRE/q/afaclick?http://huodong.ucar.cn/audi2013/index.aspx" target="_blank" rel="nofollow" class="colora">进入厂商官网&gt;&gt;</a></p>
+</div>
+<div class="warrantyCarMainL">
+        <ul class="clearfix"><li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerSA34005368144C.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130d0i74.jpg" alt="奥迪Q3(进口) 12款 2.0T 双离合 运动型图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerSA34005368144C.html" target="_blank" title="奥迪Q3(进口) 12款 2.0T 双离合 运动型">2012款 奥迪Q3(进口)</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v104718/" target="_blank">马鞍山康奥</a></p>
+    <p class="cola">38.00万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-aodipinjianrenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerSA34005366741C.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130bl88s.jpg" alt="奥迪A7(进口) 11款 2.8 自动 进取型图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerSA34005366741C.html" target="_blank" title="奥迪A7(进口) 11款 2.8 自动 进取型">2011款 奥迪A7(进口)</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v104718/" target="_blank">马鞍山康奥</a></p>
+    <p class="cola">56.80万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-aodipinjianrenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerSA34007368598C.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130dsybo.jpg" alt="奥迪A3(进口) 11款 Sportback 1.8T 自动 豪华型图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerSA34007368598C.html" target="_blank" title="奥迪A3(进口) 11款 Sportback 1.8T 自动 豪华型">2011款 奥迪A3(进口)</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v111737/" target="_blank">安庆中奥奥迪</a></p>
+    <p class="cola">21.68万</p>
+    <div class="tbbox">
+    
+    </div>
+</li>    </ul>
+    <p class="homemore"><span><a href="http://yiche.taoche.com/buycar/carlist.aspx?spid=363" target="_blank" rel="nofollow" class="colora">更多车源&gt;&gt;</a></span>以上是一汽-奥迪4s店提供销售的车源</p>
+</div>
+</div>
+<div class="warrantyCarMain" id="data_box1_1" style="display: none;">
+<div class="warrantyCarMainR"><a href="http://ad.doubleclick.net/clk;270504551;96570679;r?http://ad.doubleclick.net/ddm/clk/275383055;102314521;s?http://www.bmw-bps.com.cn/" target="_blank" rel="nofollow"><img src="http://img6.ucar.cn/static/taochesite/logo/bmwlogo_150x100.jpg" alt="BMW尊选"/></a>
+    <p>以严谨的态度，保证从车源、检测、整备、认证到购买和售后每一个环节的品质</p>
+    <p class="changszq"><a href="http://ad.doubleclick.net/clk;270504551;96570679;r?http://ad.doubleclick.net/ddm/clk/275383055;102314521;s?http://www.bmw-bps.com.cn/" target="_blank" rel="nofollow" class="colora">进入厂商官网&gt;&gt;</a></p>
+</div>
+<div class="warrantyCarMainL">
+        <ul class="clearfix"><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130909421873.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130d2nnm.jpg" alt="宝马5系GT(进口) 11款 535i 典雅型图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130909421873.html" target="_blank" title="宝马5系GT(进口) 11款 535i 典雅型">2011款 宝马5系GT(进</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v101930/" target="_blank">宝利丰二手车</a></p>
+    <p class="cola">63.56万</p>
+    <div class="tbbox">
+    
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130925434151.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130dg23m.jpg" alt="宝马1系(进口) 12款 116i 领先型图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130925434151.html" target="_blank" title="宝马1系(进口) 12款 116i 领先型">2012款 宝马1系(进口</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v101930/" target="_blank">宝利丰二手车</a></p>
+    <p class="cola">22.30万</p>
+    <div class="tbbox">
+    
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130607387041.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130ceffg.jpg" alt="宝马1系(进口) 11款 120i 双门轿跑车图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130607387041.html" target="_blank" title="宝马1系(进口) 11款 120i 双门轿跑车">2011款 宝马1系(进口</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v101930/" target="_blank">宝利丰二手车</a></p>
+    <p class="cola">23.00万</p>
+    <div class="tbbox">
+    
+    </div>
+</li>    </ul>
+    <p class="homemore"><span><a href="http://yiche.taoche.com/buycar/carlist.aspx?spid=2182" target="_blank" rel="nofollow" class="colora">更多车源&gt;&gt;</a></span>以上是BMW 4s店提供销售的车源</p>
+</div>
+</div>
+<div class="warrantyCarMain" id="data_box1_2" style="display: none;">
+<div class="warrantyCarMainR"><a href="http://ad.doubleclick.net/clk;272410134;98207407;a?http://www.lexuscpo.com.cn/online_showroom.aspx" target="_blank" rel="nofollow"><img src="http://img6.ucar.cn/static/taochesite/logo/lexus_logo_150x100.jpg" alt="雷克萨斯"/></a>
+    <p>严格秉承悉心甄选，原厂保证的标准，尊享等同于新车的雷克萨斯服务。</p>
+    <p class="changszq"><a href="http://ad.doubleclick.net/clk;272410134;98207407;a?http://www.lexuscpo.com.cn/online_showroom.aspx" target="_blank" rel="nofollow" class="colora">进入厂商官网&gt;&gt;</a></p>
+</div>
+<div class="warrantyCarMainL">
+        <ul class="clearfix">
+                  <li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerL0B02361689C.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130bov6e.jpg" alt="雷克萨斯RX 12款 350 豪华版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerL0B02361689C.html" target="_blank" title="雷克萨斯RX 12款 350 豪华版">2012款 雷克萨斯RX</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v100656/" target="_blank">润华雷克萨斯</a></p>
+    <p class="cola">59.80万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-leikesasirenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerLKSS1000060S.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130c375q.jpg" alt="雷克萨斯ES 09款 240 豪华版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerLKSS1000060S.html" target="_blank" title="雷克萨斯ES 09款 240 豪华版">2009款 雷克萨斯ES</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v108647/" target="_blank">东昌雷克萨斯</a></p>
+    <p class="cola">28.00万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-leikesasirenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerL0402361772C.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130bofvk.jpg" alt="雷克萨斯CT 11款 200h 1.8L 自动 F SPORT图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerL0402361772C.html" target="_blank" title="雷克萨斯CT 11款 200h 1.8L 自动 F SPORT">2011款 雷克萨斯CT</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v108647/" target="_blank">东昌雷克萨斯</a></p>
+    <p class="cola">29.00万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-leikesasirenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li>		</ul>
+    <div class="homemore"><span><a href="/buycar/brand/lexus/?spid=12" target="_blank" class="colora">更多车源>></a></span>以上是LEXUS雷克萨斯4S店提供销售的车源</div>
+</div>
+</div>
+<div class="warrantyCarMain" id="data_box1_3" style="display: none;">
+<div class="warrantyCarMainR"><a href="http://ad.doubleclick.net/clk;274990955;101610109;e?http://ftms.taoche.com/" target="_blank" rel="nofollow"><img src="http://img6.ucar.cn/static/taochesite/logo/yiqifengtian_logo_150x100.jpg" alt="一汽丰田安心二手车"/></a>
+    <p>一汽丰田安心二手车秉承专业、标准、透明、便捷的服务理念，让您安心购买使用</p>
+    <p class="changszq"><a href="http://ad.doubleclick.net/clk;274990955;101610109;e?http://ftms.taoche.com/" target="_blank" rel="nofollow" class="colora">进入厂商专区&gt;&gt;</a></p>
+</div>
+<div class="warrantyCarMainL">
+        <ul class="clearfix">
+                  <li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130912423534.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130crd0o.jpg" alt="锐志 10款 2.5V 风尚豪华导航版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130912423534.html" target="_blank" title="锐志 10款 2.5V 风尚豪华导航版">2010款 锐志</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v3547/" target="_blank">福州中升丰田</a></p>
+    <p class="cola">16.90万</p>
+    <div class="tbbox">
+    
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130911422831.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130chquk.jpg" alt="锐志 10款 2.5S 风度菁华版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130911422831.html" target="_blank" title="锐志 10款 2.5S 风度菁华版">2010款 锐志</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v108692/" target="_blank">南京中升丰田</a></p>
+    <p class="cola">16.18万</p>
+    <div class="tbbox">
+    
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130912423531.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130ck63e.jpg" alt="威驰 08款 1.6L GL—i 特别纪念版 AT图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130912423531.html" target="_blank" title="威驰 08款 1.6L GL—i 特别纪念版 AT">2008款 威驰</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v3547/" target="_blank">福州中升丰田</a></p>
+    <p class="cola">6.30万</p>
+    <div class="tbbox">
+    
+    </div>
+</li>		</ul>
+    <div class="homemore"><span><a href="/buycar/brand/tianjinyiqifengtian/?spid=13" target="_blank" class="colora">更多车源>></a></span>以上是一汽丰田4S店提供销售的车源</div>
+</div>
+</div>
+<div class="warrantyCarMain" id="data_box1_4" style="display: none;">
+<div class="warrantyCarMainR"><a href="http://gac-toyota.taoche.com/" target="_blank" rel="nofollow"><img src="http://img6.ucar.cn/static/taochesite/logo/guangqifengtianlogo_150x100.jpg" alt="广汽丰田"/></a>
+    <p>广汽丰田心悦二手车，以尊贵?安心的品质和服务，伴您共度愉悦人生</p>
+    <p class="changszq"><a href="http://gac-toyota.taoche.com/" target="_blank" rel="nofollow" class="colora">进入厂商专区&gt;&gt;</a></p>
+</div>
+<div class="warrantyCarMainL">
+        <ul class="clearfix"><li>
+    <a href="http://yiche.taoche.com/buycar/b-Dealer32E20364288C.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130bpi6o.jpg" alt="雅力士 1.6G精致版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-Dealer32E20364288C.html" target="_blank" title="雅力士 1.6G精致版">0款 雅力士</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v103109/" target="_blank">苏州九和</a></p>
+    <p class="cola">6.48万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-yiqifengtiansmilerenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-Dealer37B10366318C.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130bmwuq.jpg" alt="汉兰达 12款 3.5L 自动 豪华型 7座 四驱图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-Dealer37B10366318C.html" target="_blank" title="汉兰达 12款 3.5L 自动 豪华型 7座 四驱">2012款 汉兰达</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v3542/" target="_blank">青岛瑞合丰田</a></p>
+    <p class="cola">35.00万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-yiqifengtiansmilerenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-Dealer37B10363337C.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130bnaws.jpg" alt="汉兰达 09款 2.7L 豪华版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-Dealer37B10363337C.html" target="_blank" title="汉兰达 09款 2.7L 豪华版">2009款 汉兰达</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v3542/" target="_blank">青岛瑞合丰田</a></p>
+    <p class="cola">25.50万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-yiqifengtiansmilerenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li>    </ul>
+    <div class="homemore"><span><a href="http://yiche.taoche.com/buycar/carlist.aspx?spid=103632" target="_blank" rel="nofollow" class="colora">更多车源&gt;&gt;</a></span>以上是广汽丰田4s店提供销售的车源</div>
+</div>
+</div>
+<div class="warrantyCarMain" id="data_box1_5" style="display: none;">
+<div class="warrantyCarMainR"><a href="http://ad.doubleclick.net/clk;272932967;98901364;a?http://ad.doubleclick.net/click;h=v2|40B5|0|0|%2a|n;272354031;0-0;0;98118721;31-1|1;54292237|54193379|1;;%3fhttp://www.landrover.com/cn/zh/lr/used-cars/lr-certified-used-cars/?utm_campaign=Used_Card&utm_source=Taoche&utm_medium=BANNER" target="_blank" rel="nofollow"><img src="http://img6.ucar.cn/static/taochesite/logo/luhu_logo_150x100.jpg" alt="路虎"/></a>
+    <p>选择路虎二手车，选择路虎官方品质认证，尊崇卓越、安全可靠、自信之选</p>
+    <p class="changszq"><a href="http://ad.doubleclick.net/clk;272932967;98901364;a?http://ad.doubleclick.net/click;h=v2|40B5|0|0|%2a|n;272354031;0-0;0;98118721;31-1|1;54292237|54193379|1;;%3fhttp://www.landrover.com/cn/zh/lr/used-cars/lr-certified-used-cars/?utm_campaign=Used_Card&utm_source=Taoche&utm_medium=BANNER" target="_blank" rel="nofollow" class="colora">进入厂商官网&gt;&gt;</a></p>
+</div>
+<div class="warrantyCarMainL">
+        <ul class="clearfix"><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130317367238.html" target="_blank"><img src="http://img5.ucar.cn/1f/021302cimo.jpg" alt="揽胜极光 12款 2.0T 5门耀致版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130317367238.html" target="_blank" title="揽胜极光 12款 2.0T 5门耀致版">2012款 揽胜极光</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v105931/" target="_blank">上海西上海路虎</a></p>
+    <p class="cola">62.80万</p>
+    <div class="tbbox">
+    
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130923432134.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130d3lts.jpg" alt="发现 13款 第四代 5.0 V8 SE 汽油版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130923432134.html" target="_blank" title="发现 13款 第四代 5.0 V8 SE 汽油版">2013款 发现</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v105930/" target="_blank">杭州路德行路虎</a></p>
+    <p class="cola">100.00万</p>
+    <div class="tbbox">
+    
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130924432811.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130d4xe8.jpg" alt="揽胜极光 12款 2.0T Coupe 3门耀致版图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130924432811.html" target="_blank" title="揽胜极光 12款 2.0T Coupe 3门耀致版">2012款 揽胜极光</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v105929/" target="_blank">绍兴汇豪</a></p>
+    <p class="cola">57.80万</p>
+    <div class="tbbox">
+    
+    </div>
+</li>    </ul>
+    <div class="homemore"><span><a href="/buycar/carlist.aspx?spid=11&bid=96" target="_blank" rel="nofollow" class="colora">更多车源&gt;&gt;</a></span>以上为路虎4S店提供销售的车源</div>
+</div>
+</div>
+<div class="warrantyCarMain" id="data_box1_6" style="display: none;">
+<div class="warrantyCarMainR"><a href="http://ad.doubleclick.net/clk;276437079;103656113;g?http://e.cn.miaozhen.com/r.gif?k=1008458&p=3z0aH0&rt=2&ns=[M_ADIP]&ni=[M_IESID]&na=[M_MAC]&o=http://faw-vw.taoche.com" target="_blank" rel="nofollow"><img src="http://img6.ucar.cn/static/taochesite/logo/yiqicsvwlogo_150x100.jpg" alt="一汽-大众品牌二手车"/></a>
+    <p>保证、信任、可靠、透明-来自一汽-大众品牌二手车的承诺。</p>
+    <p class="changszq"><a href="http://ad.doubleclick.net/clk;276437079;103656113;g?http://e.cn.miaozhen.com/r.gif?k=1008458&p=3z0aH0&rt=2&ns=[M_ADIP]&ni=[M_IESID]&na=[M_MAC]&o=http://faw-vw.taoche.com" target="_blank" rel="nofollow" class="colora">进入厂商官网&gt;&gt;</a></p>
+</div>
+<div class="warrantyCarMainL">
+        <ul class="clearfix"><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130926435962.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130daz9q.jpg" alt="长安之星 09款 SC6363B3S图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130926435962.html" target="_blank" title="长安之星 09款 SC6363B3S">2009款 长安之星</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v104813/" target="_blank">青岛大栏大众</a></p>
+    <p class="cola">1.80万</p>
+    <div class="tbbox">
+    
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130716405440.html" target="_blank"><img src="http://img5.ucar.cn/1f/0213099ihk.jpg" alt="迈腾 13款 2.0T 手自一体 豪华型图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130716405440.html" target="_blank" title="迈腾 13款 2.0T 手自一体 豪华型">2013款 迈腾</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v106064/" target="_blank">烟台大成大众</a></p>
+    <p class="cola">23.60万</p>
+    <div class="tbbox">
+    
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-dealer4S130716405443.html" target="_blank"><img src="http://img5.ucar.cn/1f/0213099iw4.jpg" alt="一汽-大众CC 13款 1.8T 双离合 豪华型图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-dealer4S130716405443.html" target="_blank" title="一汽-大众CC 13款 1.8T 双离合 豪华型">2013款 一汽-大众CC</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v106064/" target="_blank">烟台大成大众</a></p>
+    <p class="cola">27.00万</p>
+    <div class="tbbox">
+    
+    </div>
+</li>    </ul>
+    <p class="homemore"><span><a href="/buycar/carlist.aspx?spid=3276" target="_blank" rel="nofollow" class="colora">更多车源&gt;&gt;</a></span>以上是一汽-大众4S店提供销售的车源</p>
+</div>
+</div>
+<div class="warrantyCarMain" id="data_box1_7" style="display: none;">
+<div class="warrantyCarMainR"><a href="http://ad.doubleclick.net/clk;271917840;97640304;l?http://c.admaster.com.cn/c/a14192,b200212155,c3010,i0,m101,h" target="_blank" rel="nofollow"><img src="http://img6.ucar.cn/static/taochesite/logo/dongfengrichanlogo_150x100.jpg" alt="东风日产"/></a>
+    <p>“轻松选择，安心享受”是东风日产二手车服务宗旨，是客户购买二手车放心之选</p>
+    <p class="changszq"><a href="http://ad.doubleclick.net/clk;271917840;97640304;l?http://c.admaster.com.cn/c/a14192,b200212155,c3010,i0,m101,h" target="_blank" rel="nofollow" class="colora">进入厂商官网&gt;&gt;</a></p>
+</div>
+<div class="warrantyCarMainL">
+        <ul class="clearfix"><li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerE1546356639C.html" target="_blank"><img src="http://img5.ucar.cn/1f/021303qzzy.jpg" alt="骊威 10款 劲悦版 1.6GI 全能型 AT图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerE1546356639C.html" target="_blank" title="骊威 10款 劲悦版 1.6GI 全能型 AT">2010款 骊威</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v111955/" target="_blank">青州江山日产</a></p>
+    <p class="cola">6.88万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-dongfengrichanrenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerE1541359004C.html" target="_blank"><img src="http://img5.ucar.cn/1f/021304qvhu.jpg" alt="逍客 10款 20S 火 MT 2WD图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerE1541359004C.html" target="_blank" title="逍客 10款 20S 火 MT 2WD">2010款 逍客</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v100768/" target="_blank">淄博远方骏顺</a></p>
+    <p class="cola">10.98万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-dongfengrichanrenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li><li>
+    <a href="http://yiche.taoche.com/buycar/b-DealerE2001359150C.html" target="_blank"><img src="http://img5.ucar.cn/1f/021304xf7i.jpg" alt="骊威 10款 劲悦版 1.6GS 超能型 MT图片" /></a>
+    <h3><a href="http://yiche.taoche.com/buycar/b-DealerE2001359150C.html" target="_blank" title="骊威 10款 劲悦版 1.6GS 超能型 MT">2010款 骊威</a></h3>
+    <p><a class="colora" href="http://www.taoche.com/v109134/" target="_blank">东风日产华星</a></p>
+    <p class="cola">5.79万</p>
+    <div class="tbbox">
+    <div class="cszb_rz"><span><a target="_blank" href="http://www.taoche.com/zhishi/c-dongfengrichanrenzhengershouche.html">厂商认证</a></span></div>
+    </div>
+</li>    </ul>
+    <p class="homemore"><span><a href="http://yiche.taoche.com/buycar/carlist.aspx?spid=461" target="_blank" rel="nofollow" class="colora">更多车源&gt;&gt;</a></span>以上是东风日产专营店提供销售的车源</p>
+</div>
+</div>
+<script type="text/javascript" language="javascript">
+var chengxin = "<img src='http://img5.ucar.cn/static/taochesite/logo/chengxinlogo_63x38.jpg' alt='上海通用诚新二手车' /><div></div>";
+var nissan = "<img src='http://img7.ucar.cn/static/taochesite/logo/dongfengrichanlogo_63x38.jpg' alt='东风日产二手车' /><div></div>";
+var audi = "<img src='http://img8.ucar.cn/static/taochesite/logo/aodi_logo_63x38.jpg' alt='奥迪品荐二手车' /><div></div>";
+var bmw = "<img src='http://img7.ucar.cn/static/taochesite/logo/bmwlogo_63x38.jpg' alt='BMW尊选二手车' /><div></div>";
+var benchi = "<img src='http://img6.ucar.cn/static/taochesite/logo/benchilogo_63x38.jpg' alt='奔驰星睿二手车' /><div></div>";
+var dcad = "<img src='http://img5.ucar.cn/static/taochesite/logo/xuetielonglogo_63x38.jpg' alt='东风雪铁龙龙信二手车' /><div></div>";
+var toyota = "<img src='http://img5.ucar.cn/static/taochesite/logo/fengtianlogo_63x38.jpg' alt='广汽丰田心悦二手车' /><div></div>";
+var jauger = "<img src='http://img7.ucar.cn/static/taochesite/logo/jauger_logo_64_40.gif' alt='捷豹二手车' /><div></div>";
+var luhu = "<img src='http://img8.ucar.cn/static/taochesite/logo/luhu_logo_63x38.jpg' alt='路虎二手车' /><div></div>";
+var dyk = "<img src='http://img8.ucar.cn/static/taochesite/logo/dfydcy_logo_63x38.jpg' alt='东风悦达起亚二手车' /><div></div>";
+var lexus="<img src='http://img6.ucar.cn/static/taochesite/logo/lexus_logo_63x38.jpg' alt='雷克萨斯二手车' /><div></div>";
+var yiqitoyota="<img src='http://img5.ucar.cn/static/taochesite/logo/yiqifengtian_logo_63x38.jpg' alt='一汽丰田安心二手车' /><div></div>";
+var areaId = IpLocation.GetAreaId();
+if(areaId=="2"||areaId=="1001"||areaId=="502"||areaId=="504"||areaId=="31")
+{
+nissan = "<div></div><img src='http://img3.taoche.com/static/taochesite/logo/nissanyicheng_logo_63x38.jpg' alt='东风日产易诚二手车' />";
+}
+var arr = [{ "li": audi, "div": "AudiCar.shtml"},{ "li": bmw, "div": "BaoMaCar.shtml"},{ "li": lexus, "div": "LexusCar.shtml"},{ "li": yiqitoyota, "div": "YiQiToyotaCar.shtml"},{ "li": toyota, "div": "ToyotaCar.shtml"},{ "li": luhu, "div": "LuhuCar.shtml"},{ "li": yiqicsvw, "div": "YiQiCsvwCar.shtml"},{ "li": nissan, "div": "NissanCar.shtml"}];
+var isAudi = true;
+</script>
+    </div>
+    <div class="w218 boxall fright h294 clearfix">
+       <h3 class="titlea"><a href="http://news.taoche.com/hangqing/" target="_blank">二手车市场行情</a></h3>
+       <div class="more"><a href="http://news.taoche.com/hangqing/" class="colora" target="_blank">更多&gt;&gt;</a></div>
+       <ul class="list" id="ulNewsList">
+         <li><a href='http://news.taoche.com/hangqing/2013-01/124383380.shtml' target='_blank'>置换玛驰优惠高达5000元赠礼包</a></li><li><a href='http://news.taoche.com/hangqing/2013-01/124381929.shtml' target='_blank'>置换马自达6惠1万 送300元油卡</a></li><li><a href='http://news.taoche.com/hangqing/2013-01/124379545.shtml' target='_blank'>置换全新花冠降1.1万元 送油卡</a></li><li><a href='http://news.bitauto.com/areashopcar/20130904/1306216363.html' target='_blank'>奥迪品荐汇活动 解码“品荐”真相</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/123851271.shtml' target='_blank'>全新花冠直降1.1万 置换送油卡</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/123847815.shtml' target='_blank'>逸致年末促销 直降1.6万享补贴</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/123804237.shtml' target='_blank'>置换购东风本田CR-V赠千元油卡</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/123774837.shtml' target='_blank'>12款凯美瑞直降25000 再享补贴</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/123591140.shtml' target='_blank'>置换丰田卡罗拉 享2万现金优惠</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/124276855.shtml' target='_blank'>置换BMW X6送万元礼包现车充足</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/124275670.shtml' target='_blank'>置换13款沃尔沃进口S60惠2.5万</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/124114523.shtml' target='_blank'>置换购雪佛兰迈瑞宝 优惠3.1万</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/124111582.shtml' target='_blank'>置换购经典版凯美瑞 优惠3.3万</a></li><li><a href='http://news.taoche.com/hangqing/2013-01/124382212.shtml' target='_blank'>置换天籁 优惠30000元再享补贴</a></li><li><a href='http://news.taoche.com/hangqing/2012-12/124332304.shtml' target='_blank'>12款丰田皇冠优惠2000送商业险</a></li>
+       </ul>
+    </div>
+    <script type="text/javascript" language="javascript">
+        InintAreaNew("bitauto", arr, isAudi);
+        var block_NewsList = new UcarBlockText("ulNewsList", "hezuo", ".shtml", true);
+        block_NewsList.BlockModel = "inc/block/{0}/hangqing/hangqing_{1}";
+        block_NewsList.InitBlock();
+    </script>
+</div>
+<!--有质量保证的二手车end -->
+<!--二手车置换品牌区 star -->
+<div class="w960 clearfix">
+  <div class="col_728 boxall h133 clearfix">
+       <div class="titall"><h2 class="title"><span>二手车置换品牌区</span></h2></div>
+       <div class="more"><a href="http://news.bitauto.com/others/20120804/0905790130.html" class="colora" target="_blank">置换说明&gt;&gt;</a></div>
+       <ul class="zhihuanpinp  clearfix">
+          <!--首页置换专区广告-->
+          <ins id="div_3190ccca-c1b0-4533-906a-be0eb8b910ac" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="3190ccca-c1b0-4533-906a-be0eb8b910ac" style="text-decoration:none"> </ins>
+<ins id="div_f819c513-9b26-4ed0-a66f-af1ccd4fe9b7" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="f819c513-9b26-4ed0-a66f-af1ccd4fe9b7" style="text-decoration:none"> </ins>
+<ins id="div_683f01f6-fe82-449a-ac81-30ef47eac6c1" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="683f01f6-fe82-449a-ac81-30ef47eac6c1" style="text-decoration:none"> </ins>
+<ins id="div_e99eeb90-7048-497f-9a42-127f69bab53e" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="e99eeb90-7048-497f-9a42-127f69bab53e" style="text-decoration:none"> </ins>
+<ins id="div_0697bda6-cd4a-4776-842f-5919cd920540" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="0697bda6-cd4a-4776-842f-5919cd920540" style="text-decoration:none"> </ins>
+<ins id="div_7c197ed5-026b-464e-9c96-76e900d6a665" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="7c197ed5-026b-464e-9c96-76e900d6a665" style="text-decoration:none"> </ins>                  
+       </ul>
+  </div>
+ 
+  <div class="w218 boxall fright h133 clearfix">
+       <h3 class="titlea">二手车置换查询</h3>
+    <div class="ercarfind">
+        <ul class="pgcent clearfix">
+            <li>
+                <strong>车&nbsp;&nbsp;&nbsp;&nbsp;款：</strong>
+                <select id="ddlIndexReplaceMasterBrand" class="selectall select1">
+                </select>
+                <p>
+                    <select id="ddlIndexReplaceSerial" class="selectall select1">
+                    </select>
+                </p>
+            </li>
+            <li>
+                <input id="btnIndexReplaceSubmit" type="button" class="select_b_x" value="快速查询"/>
+            </li>
+        </ul>
+    </div>
+    
+    <script type="text/javascript">
+        IndexFunction.initIndexReplaceEvent();
+    </script>
+
+  </div>
+</div>
+<!--二手车置换品牌区 end -->
+
+<!--中部第二通栏-->
+<div class="w960 mb10 clearfix">
+    <div class="col_left clearfix">
+         <ins id="div_0b5aebaf-cbad-4951-947a-7d1e49499e1b" type="ad_play" adplay_IP=""  adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="0b5aebaf-cbad-4951-947a-7d1e49499e1b"> </ins>    
+    </div>
+    <div class="col_right clearfix">
+         <ins id="div_28dfbe64-4df5-435f-8245-0dd677fed632" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="28dfbe64-4df5-435f-8245-0dd677fed632"> </ins>    
+    </div>
+</div>
+
+<!--北京推荐二手车 star -->
+<div class="w960 clearfix">
+   <div class="col_728 boxall h400 clearfix">
+     <div class="titall">
+       <h2 class="title"><span id="spanAreaNameByRecommendCar">全国推荐二手车</span></h2>
+     </div>
+     <div class="more"><a href="/buycar/quanguo/" target="_blank" class="colora" id="aMoreCarList">更多&gt;&gt;</a></div>
+       <ul class="wgxqcar pic150_100  box15_5 mainpicboxb" id="ulLocalRecommendCar">
+            <li> <a href="http://yiche.taoche.com/buycar/b-Dealer13100912486.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130dwsfi.png" alt="蓝瑟 06款 1.6L MT SEi舒适型图片" /></a>
+             <P><a href="http://yiche.taoche.com/buycar/b-Dealer13100912486.html" target="_blank">2006款 蓝瑟</a></P>
+             <p>2008年上牌 6.00万公里</p>
+             <P><strong>4.50万</strong></P>
+           </li><li> <a href="http://yiche.taoche.com/buycar/p-3088697.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130dwsew.jpg" alt="赛弗SUV 06款 CC6460FMK00(两驱) 超豪华图片" /></a>
+             <P><a href="http://yiche.taoche.com/buycar/p-3088697.html" target="_blank">2006款 赛弗SUV</a></P>
+             <p>2006年上牌 13公里</p>
+             <P><strong>4.18万</strong></P>
+           </li><li> <a href="http://yiche.taoche.com/buycar/p-3088696.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130dwsfa.jpg" alt="五菱鸿途 07款 6381B3标准型图片" /></a>
+             <P><a href="http://yiche.taoche.com/buycar/p-3088696.html" target="_blank">2007款 五菱鸿途</a></P>
+             <p>2008年上牌 12公里</p>
+             <P><strong>2.00万</strong></P>
+           </li><li> <a href="http://yiche.taoche.com/buycar/p-3088694.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130dwse8.jpg" alt="斯帕可 11款 1.0 SX AT图片" /></a>
+             <P><a href="http://yiche.taoche.com/buycar/p-3088694.html" target="_blank">2011款 斯帕可</a></P>
+             <p>2011年上牌 9000公里</p>
+             <P><strong>6.50万</strong></P>
+           </li><li> <a href="http://yiche.taoche.com/buycar/b-Dealer13100912461.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130dwrse.jpg" alt="途观 12款 风尚版 1.8TSI 手自一体 四驱图片" /></a>
+             <P><a href="http://yiche.taoche.com/buycar/b-Dealer13100912461.html" target="_blank">2012款 途观</a></P>
+             <p>2012年上牌 3.00万公里</p>
+             <P><strong>19.68万</strong></P>
+           </li><li> <a href="http://yiche.taoche.com/buycar/p-3031850.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130db0ym.jpg" alt="奥迪A4L 09款 2.0 TFSI 舒适型图片" /></a>
+             <P><a href="http://yiche.taoche.com/buycar/p-3031850.html" target="_blank">2009款 奥迪A4L</a></P>
+             <p>2009年上牌 6.00万公里</p>
+             <P><strong>19.80万</strong></P>
+           </li><li> <a href="http://yiche.taoche.com/buycar/b-Dealer13100912485.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130dwsdm.png" alt="赛欧 03款SLX AT标准型图片" /></a>
+             <P><a href="http://yiche.taoche.com/buycar/b-Dealer13100912485.html" target="_blank">2003款 赛欧</a></P>
+             <p>2003年上牌 15.00万公里</p>
+             <P><strong>2.28万</strong></P>
+           </li><li> <a href="http://yiche.taoche.com/buycar/b-Dealer13083113099.html" target="_blank"><img src="http://img5.ucar.cn/1f/02130by3u4.png" alt="帕萨特 05款 1.8T自动天窗型图片" /></a>
+             <P><a href="http://yiche.taoche.com/buycar/b-Dealer13083113099.html" target="_blank">2005款 帕萨特</a></P>
+             <p>2005年上牌 8.00万公里</p>
+             <P><strong>5.50万</strong></P>
+           </li>
+       </ul>
+   </div>
+   <!-- 北京二手车经销商-->
+   <div class="w218 boxall fright h400 clearfix">
+       <h3 class="titlea"><span id="spanVendorAreaName">全国二手车经销商</span></h3>
+       <ul class="benjxs">
+          <!--首页推荐经销商广告-->
+            <ins id="div_41961da8-f264-4b40-8798-7b97c3cfaea2" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="41961da8-f264-4b40-8798-7b97c3cfaea2" style="text-decoration:none"> </ins>  
+       </ul> 
+      <div class="more"><!--<a href="/dealer/" target="_blank" class="colora">更多&gt;&gt;</a>--></div>
+  </div>
+</div>
+ <script type="text/javascript">
+     var areaId = IpLocation.GetAreaId();
+     var areaName = IpLocation.GetAreaName(areaId);
+     document.getElementById("spanAreaNameByRecommendCar").innerHTML = areaName + "推荐二手车";
+     document.getElementById("spanVendorAreaName").innerHTML = areaName + "二手车经销商";
+     document.getElementById("aMoreCarListTop").href = document.getElementById("aMoreCarList").href = "/buycar/" + IpLocation.GetAllSpell(areaId) + "/";
+     IndexFunction.showMyInterestedCar();
+ </script>
+<!--北京推荐二手车 end -->
+
+<!--底部通栏-->
+<div class="w960 clearfix">
+    <ins id="div_7a87c3f9-603b-43cf-ae9e-226bb25cb08e" type="ad_play" adplay_IP="" adplay_AreaName=""  adplay_CityName=""    adplay_BrandID=""  adplay_BrandName=""  adplay_BrandType=""  adplay_BlockCode="7a87c3f9-603b-43cf-ae9e-226bb25cb08e"> </ins>   
+</div>
+
+<!--买车攻略star-->
+<div class="boxall w958 clearfix">
+  <div class="titall">
+    <h2><span>买车攻略</span></h2>  
+  </div>
+   <div class="more"><a href="/zhishi/" class="colora" target="_blank">更多&gt;&gt;</a></div>
+  	<div class="gonglie clearfix">
+         <dl>
+          <dt class="bg3">选车</dt>
+          <dd>
+            <p><a target="_blank" href="/zhishi/c-taocheweb.html">确定购买淘车网二手车</a></p>
+            <p><a target="_blank" href="/zhishi/c-ershouchesousuo.html">车源中挑选优质二手车</a></p>
+            <p><a target="_blank" href="/zhishi/c-chexingzongshu.html">锁定目标购买心仪车型</a></p>
+         </dd>
+       </dl>
+       <dl>
+          <dt class="bg2">购车</dt>
+          <dd>
+             <p><a target="_blank" href="/zhishi/z-cheliangjiancha.html">检查二手车的整体车况</a></p>
+              <P><a target="_blank" href="/zhishi/c-kanjiajuezhao.html">洽谈协商车辆最终价格</a></P>
+              <P><a target="_blank" href="/zhishi/z-liuchengshouxu.html">缴费过户检查手续税费</a></P>
+         </dd>
+       </dl>
+       <dl>
+          <dt class="bg1">用车</dt>
+          <dd>
+            <p><a target="_blank" href="/zhishi/z-baoyang.html">更换三滤制定保养计划</a></p> 
+            <P><a target="_blank" href="/zhishi/c-ershouchebaoyang.html">维修更换老化的易损件</a></P>
+            <P><a target="_blank" href="/zhishi/c-jiaonafeiyong.html">缴纳保险车船税养路费</a></P>
+         </dd>
+       </dl>
+       <dl class="last">
+          <dt class="bg4">知识</dt>
+          <dd>
+              <p><a target="_blank" href="/zhishi/z-fadongji.html">增压发动机与自然吸气</a></p>
+              <P><a target="_blank" href="/zhishi/z-anquanfuzhu.html">防抱死气囊等安全配置</a></P>
+              <P><a target="_blank" href="/zhishi/z-xuanjia.html">独立悬挂与非独立系统</a></P>
+         </dd>
+       </dl>
+
+  </div>
+</div>
+<!--买车攻略end-->
+
+<!--首页全屏广告-->
+<script type="text/javascript">
+    var adplay_CityName = ''; //城市
+    var adplay_AreaName = ''; //区域
+    var adplay_BrandID = ''; //品牌id 
+    var adplay_BrandType = ''; //品牌类型：（国产）或（进口）
+    var adplay_BrandName = ''; //品牌
+    var adplay_BlockCode = '9b45a891-0905-4eaa-8242-614b1946ae70'; //广告块编号
+</script>
+<script type="text/javascript" src="http://gimg.bitauto.com/js/sense.js?version=20120331"></script>
+
+
+<!--首页底部浮层广告-->
+<script type="text/javascript">
+    var adplay_CityName = ''; //城市
+    var adplay_AreaName = ''; //区域
+    var adplay_BrandID = ''; //品牌id 
+    var adplay_BrandType = ''; //品牌类型：（国产）或（进口）
+    var adplay_BrandName = ''; //品牌
+    var adplay_BlockCode = 'd96b1b24-e754-462e-871d-3e7ace779a10'; //广告块编号
+</script>
+<script type="text/javascript" src="http://gimg.bitauto.com/js/sense.js?version=20120331"></script>
+
+
+<!--首页弹出视频广告-->
+<script type="text/javascript">
+    var adplay_CityName = ''; //城市
+    var adplay_AreaName = ''; //区域
+    var adplay_BrandID = ''; //品牌id 
+    var adplay_BrandType = ''; //品牌类型：（国产）或（进口）
+    var adplay_BrandName = ''; //品牌
+    var adplay_BlockCode = 'a12e9124-a0ff-4a54-8897-689f59a1411c'; //广告块编号
+</script>
+<script type="text/javascript" src="http://gimg.bitauto.com/js/sense.js?version=20120331"></script>
+
+
+<!--首页对联广告-->
+<script type="text/javascript">
+    var adplay_CityName = ''; //城市
+    var adplay_AreaName = ''; //区域
+    var adplay_BrandID = ''; //品牌id 
+    var adplay_BrandType = ''; //品牌类型：（国产）或（进口）
+    var adplay_BrandName = ''; //品牌
+    var adplay_BlockCode = '4eace1e9-1654-43c0-81dd-da0fd7cfb477'; //广告块编号
+</script>
+<script type="text/javascript" src="http://gimg.bitauto.com/js/sense.js?version=20120331"></script>
+
+
+
+
+
+<!--易车尾部开始 -->
+<div class="footer0904_2" id="footer0904">
+<div class="footer_c">购车咨询：4000-168-168（每天9:00—17:30 法定节日休息） 传真：010-68492726</div>
+<div class="footer_about">
+<ul class="about">
+   <li class="first"><a target="_blank" href="http://corp.bitauto.com/" rel="nofollow">关于易车</a></li>
+    <li><a target="_blank" href="http://corp.bitauto.com/business/" rel="nofollow">业务体系</a></li>
+    <li><a target="_blank" href="http://corp.bitauto.com/news/" rel="nofollow">易车动态</a></li>
+    <li><a target="_blank" href="http://corp.bitauto.com/job/" rel="nofollow">加入易车</a></li>
+    <li><a target="_blank" href="http://corp.bitauto.com/contact/" rel="nofollow">联系我们</a></li>
+    <li><a href="http://corp.bitauto.com/about/legal-notices.shtml" target="_blank">法律声明</a></li>
+    <li><a href="http://ir.bitauto.com/" target="_blank">Investor Relations</a></li>
+    <li><a href="http://www.bitauto.com/feedback/" target="_blank">我要提意见</a></li>
+<li class="last"><a href="http://dealer.easypass.cn/" target="_blank">车易通</a></li>
+ 
+</ul>
+</div>
+<div class="footer_text">
+<p>CopyRight &copy; 2000-2012 BitAuto,All Rights Reserved 版权所有 北京易车互联信息技术有限公司</p>
+</div>
+</div>
+<!--易车尾部结束 -->
+<script type="text/javascript" src="http://gimg.bitauto.com/js/senseNew.js?version=20120331"></script>
+<!-- 版权 end -->
+<!-- START OF SmartSource Data Collector TAG -->
+<script src="http://img2.ucar.cn/ucar/js/ucar/ucar2009/sdc/dcs_ucar.js" type="text/javascript" charset="gb2312"></script>
+<!-- END OF SmartSource Data Collector TAG -->
+<!--CIG start-->
+<script type="text/javascript" src="http://dcjs.cig.com.cn/dc.js?10"></script>
+<!--CIG end-->
+<!--艾瑞统计start-->
+<script>
+(function (G,D,s,c,p) {
+c={
+UA:"UA-taoche-000001", 
+NO_FLS:0,
+WITH_REF:1,
+URL:'http://img1.taoche.com/static/iwtstatictis/iwt-min.js'
+};
+G._iwt?G._iwt.track(c,p):(G._iwtTQ=G._iwtTQ || []).push([c,p]),!G._iwtLoading && lo();
+function lo(t) {
+G._iwtLoading=1;s=D.createElement("script");s.src=c.URL;
+t=D.getElementsByTagName("script");t=t[t.length-1];
+t.parentNode.insertBefore(s,t);
+}
+})(this,document);
+</script>
+<!--艾瑞统计end-->
+</body>
+</html>

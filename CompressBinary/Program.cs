@@ -16,14 +16,35 @@ namespace CompressBinary
             {
                 var buffer = new byte[65535];
                 var read = fs.Read(buffer, 0, buffer.Length);
-                var realRead = new byte[read];
-                Array.Copy(buffer, realRead, read);
+                var bigBuffer = new List<byte>(65535 * 1024);
+                while (read > 0)
+                {
+                    var tempBuffer = new byte[read];
+                    Array.Copy(buffer, 0, tempBuffer, 0, read);
+                    bigBuffer.AddRange(tempBuffer);
+                    buffer = new byte[65535];
+                    read = fs.Read(buffer, 0, buffer.Length);
+                }
+                bigBuffer.TrimExcess();
+                var realRead = bigBuffer.ToArray();
                 Compressor compressor = new Compressor();
-                var compressed = compressor.SmallCompress(realRead);
-                var decompress = compressor.SmallDecompress(compressed);
+                var isCompress = false;
+                var compressed = compressor.SmallCompress(realRead, out isCompress);
+                if (isCompress)
+                {
+                    var decompress = compressor.SmallDecompress(compressed);
+                    for (int i = 0; i < decompress.Length; i++)
+                    {
+                        if (decompress[i] != realRead[i])
+                        {
+                            Console.WriteLine("Not Equals");
+
+                        }
+                    }
+                }
                 if (read != 0)
                 {
-                    Console.WriteLine("Compress: " + (compressed.Length * 100.0 / read) + "%");
+                    Console.WriteLine("Compress: " + (100 - (compressed.Length * 100.0 / read)) + "%");
                     Console.ReadKey();
                 }
             }
