@@ -11,7 +11,8 @@ namespace CompressBinary
     {
         static void Main(string[] args)
         {
-            using (var fs = new FileStream(@"D:\1.txt", FileMode.Open, FileAccess.Read))
+            var file = Path.Combine(Environment.CurrentDirectory, "1.txt");
+            using (var fs = new FileStream(file, FileMode.Open, FileAccess.Read))
             {
                 var buffer = new byte[65535];
                 var read = fs.Read(buffer, 0, buffer.Length);
@@ -19,6 +20,7 @@ namespace CompressBinary
                 Array.Copy(buffer, realRead, read);
                 Compressor compressor = new Compressor();
                 var compressed = compressor.SmallCompress(realRead);
+                var decompress = compressor.SmallDecompress(compressed);
                 if (read != 0)
                 {
                     Console.WriteLine("Compress: " + (compressed.Length * 100.0 / read) + "%");

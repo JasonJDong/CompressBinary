@@ -78,22 +78,46 @@ namespace CompressBinary
             Array.Copy(source, lengthBytes, 4);
             var length = BitConverter.ToInt32(lengthBytes, 0);
             var compress = new byte[length];
+            Array.Copy(source, 4, compress, 0, compress.Length);
             var left = new byte[source.Length - length - 4];
             Array.Copy(source, length + 4, left, 0, left.Length);
             var decompress = new LinkedList<byte>();
-            
+            var posDecompress = new LinkedListNode<byte>[left.Length];
+            for (int i = 0; i < left.Length; i++)
+            {
+                posDecompress[i] = decompress.AddLast(left[i]);
+
+            }
             for (int i = 0; i < compress.Length; i += 5)
             {
                 var value = compress[i];
-                var posBytes = new byte[2];
+                var posBytes = new byte[4];
                 posBytes[0] = compress[i + 1];
                 posBytes[1] = compress[i + 2];
+                posBytes[2] = posBytes[3] = 0;
                 var position = BitConverter.ToInt32(posBytes, 0);
-                var lenBytes = new byte[2];
-                lengthBytes[0] = compress[i + 3];
-                lengthBytes[1] = compress[i + 4];
+                var lenBytes = new byte[4];
+                lenBytes[0] = compress[i + 3];
+                lenBytes[1] = compress[i + 4];
+                lenBytes[2] = lenBytes[3] = 0;
                 var len = BitConverter.ToInt32(lenBytes, 0);
+                if (position >= decompress.Count)
+                {
+                    for (int j = 0; j < len; j++)
+                    {
+                        decompress.AddLast(value);
+                    }
+                }
+                else
+                {
+                    var node = posDecompress[position];
+                    for (int j = 0; j < len; j++)
+                    {
+                        decompress.AddBefore(node, value);
+                    }
+                }
             }
+            return decompress.ToArray();
         }
     }
 }
