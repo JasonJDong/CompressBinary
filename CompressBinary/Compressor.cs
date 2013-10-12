@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +9,18 @@ namespace CompressBinary
 {
     public class Compressor
     {
-        public byte[] SmallCompress(byte[] source,out bool isCompress)
+        /// <summary>
+        /// 最大压缩流大小 - 64KB
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="isCompress"></param>
+        /// <returns></returns>
+        public byte[] SmallCompress(byte[] source, out bool isCompress)
         {
+            if (source.Length > 65535)
+            {
+                throw new ArgumentException("source size too big > 65535");
+            }
             var counter = new int[3];
             var compress = new List<byte>(13106);
             var left = new List<byte>(2048);
@@ -95,10 +106,16 @@ namespace CompressBinary
             Array.Copy(source, length + 4, left, 0, left.Length);
             var decompress = new LinkedList<byte>();
             var posDecompress = new List<LinkedListNode<byte>>(left.Length);
+            //var watch = new Stopwatch();
+            //watch.Start();
             for (int i = 0; i < left.Length; i++)
             {
                 posDecompress.Add(decompress.AddLast(left[i]));
             }
+            //watch.Stop();
+            //Console.WriteLine("init: " + watch.ElapsedMilliseconds + "ms");
+            //watch.Reset();
+
             for (int i = 0; i < compress.Length; i += 5)
             {
                 var value = compress[i];
@@ -116,7 +133,8 @@ namespace CompressBinary
                 {
                     for (int j = 0; j < len; j++)
                     {
-                        decompress.AddLast(value);
+                        var insertNode = decompress.AddLast(value);
+                        posDecompress.Insert(position, insertNode);
                     }
                 }
                 else
